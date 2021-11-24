@@ -30,7 +30,7 @@ export default class Navbar1 extends Component {
                                   <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     categories
                                   </a>
-                                  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <div   className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     {Categories.map((value, index) => {
                                       return (
                                           <a key={index} className="dropdown-item" href={`/category/${value}`}>{value} </a>                            
@@ -47,7 +47,7 @@ export default class Navbar1 extends Component {
                               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i className="far fa-user fa-fw"></i>
                               </a>
-                              <div className="dropdown-menu cust-drop" aria-labelledby="navbarDropdown">
+                              <div className="dropdown-menu cust-drop"  aria-labelledby="navbarDropdown">
                                 <a className="dropdown-item" href="/login">login</a>
                                 <a className="dropdown-item" href="/signup">signup</a>
                               </div>

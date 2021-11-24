@@ -13,7 +13,7 @@ export default class Nav2 extends Component {
                       <ul className="navbar-nav  m-auto ">
                              
                           <li className="nav-item position-relative flex-row m-auto">
-                                <span className="nav-link cartPrise d-inline">${this.props.totalPrice.toFixed(2)}</span> 
+                                <span className="nav-link cartPrise d-inline ">${this.props.totalPrice.toFixed(2)}</span> 
                                 <a href="/cart">
                                     <i className="fas fa-shopping-cart cust-size  mt-3"></i>
                                     <span className="badge-info bg-red badge cartNum">{this.props.totalQty}</span>
